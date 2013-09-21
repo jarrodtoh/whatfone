@@ -1,0 +1,74 @@
+html,body{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	height: 100%;
+}
+
+/*	header	*/
+a.navbar-brand{
+	letter-spacing: 0.1em;
+}
+
+a.navbar-brand span{
+	font-weight: 100;
+	font-style: italic;
+}
+
+/* home content */
+
+.splash{
+	background-image: url('../img/splash.jpg');
+	background-size: cover;
+	color: #fff;
+	min-height: 100%;
+	opacity: 0.9;
+}
+
+.splash h1{
+	text-align: center;
+	background-color: #000;
+	margin: 5% 0 1% 45%;
+	width: 35%;
+}
+
+.splash h1 span{
+	font-size: 1em;
+	font-weight: 50;
+	font-style: italic;
+}
+
+.splash p{
+	text-align: center;
+	background-color: #000;
+	margin: 0 0 1% 35%;
+	width: 60%;
+	letter-spacing: 0.4em;
+}
+
+.splash a{
+	margin: 0 0 0 58%;
+}
+
+/* how it works*/
+
+.section-how{
+	min-height: 100%;
+}
+
+/* demo content */
+
+#sortable {
+	list-style-type: none;
+	width: 60%;
+}
+#sortable li {
+	margin: 0 3px 3px 3px;
+	padding: 0.4em;
+	padding-left: 1.5em;
+	font-size: 1.4em;
+	height: 18px;
+}
+#sortable li span {
+	position: absolute;
+	margin-left: -1.3em;
+}

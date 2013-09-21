@@ -1,0 +1,12 @@
+.DS_Store
+
+# IDE
+.idea
+
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
